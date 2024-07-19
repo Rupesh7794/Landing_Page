@@ -1,0 +1,113 @@
+.nav-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.nav-top h1 {
+  font-weight: 300;
+}
+
+.items {
+  display: flex;
+  gap: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.items ion-icon {
+  cursor: pointer;
+}
+
+.nav-bottom {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  background-color: gold;
+}
+
+.nav-bottom div:hover {
+  border-bottom: 1px solid black;
+  cursor: pointer;
+}
+
+.hero img {
+  width: 100%;
+  height: 30vw;
+}
+
+.BSellers {
+  margin-top: 2rem;
+  display: grid;
+  justify-content: center;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 5rem;
+  gap: 3rem;
+}
+
+.card {
+  height: 18rem;
+  width: 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card img {
+  width: 100%;
+  height: 15rem;
+}
+
+.btn {
+  color: white;
+  padding: 0.3rem;
+  background-color: rgb(70, 69, 69);
+  cursor: pointer;
+}
+
+.show {
+  display: grid;
+  align-content: center;
+  width: 100%;
+  height: 30rem;
+  margin: 6rem;
+  background-image: url("https://www.kimirica.shop/cdn/shop/files/Candle_Page_Section_Desktop_1200x.jpg?v=1681992103");
+  background-repeat: no-repeat;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+  height: 20rem;
+  background-color: white;
+  margin-left: 5rem;
+  justify-content: center;
+  padding: 4rem;
+}
+
+.box h1 {
+  font-weight: 200;
+  margin-bottom: 1rem;
+}
+
+.box p {
+  font-weight: 100;
+}
+
+footer {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: white;
+  background-color: black;
+  padding: 2rem;
+}
